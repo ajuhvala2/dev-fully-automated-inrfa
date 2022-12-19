@@ -15,7 +15,7 @@ variable "iam_role_name" {
 
 variable "key_pair_name" {
   type        = string
-  description = "LandMarkKeypair.pem"
+  description = "LandMarkKeypair"
 
 }
 
