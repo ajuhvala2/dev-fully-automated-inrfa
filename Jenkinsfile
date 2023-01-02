@@ -10,7 +10,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/ajuhvala2/dev-fully-automated-inrfa/blob/main/Jenkinsfile'
+                git branch: 'main', url: 'https://git@github.com:ajuhvala2/dev-fully-automated-inrfa.git'
                 sh 'ls'
             }
         }
